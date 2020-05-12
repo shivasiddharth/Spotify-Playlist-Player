@@ -1,0 +1,14 @@
+
+#API Key for YouTubeSearch Engine
+Google_cloud_api_key: "ENTER-YOUR-GOOGLE-CLOUD-API-KEY-HERE"
+
+#Spotify credentials. Register for a spotify developer and get the credentials.
+Spotify:
+  Spotify_Control: 'Enabled'
+  client_id: 'ENTER YOUR SPOTIFY CLIENT ID HERE'
+  client_secret: 'ENTER YOUR SPOTIFY CLIENT SECRET HERE'
+  username: 'ENTER YOUR SPOTIFY USERNAME HERE'
+  playlist_names:
+    - 'Most played'
+    - 'Various artists'
+    - 'Mass'
