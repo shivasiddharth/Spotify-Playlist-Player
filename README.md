@@ -40,8 +40,13 @@
 
 ## Example usages   
    Open a terminal and run the example as follows:  
+   Example 1-Playback by supplying playlistname as argument:   
    ```   
    python3 -i /home/pi/Spotify-Playlist-Player/src/example-1-parseargs.py -p "Name of your playlist"   
+   ```
+   
+   Example 2-Playback control using Pimoroni's Button-SHIM:      
+   ```     
    python3 /home/pi/Spotify-Playlist-Player/src/example-2-button-shim.py   
    ```
 
