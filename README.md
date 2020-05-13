@@ -7,7 +7,7 @@
 2. In the developer's dashboard, choose **CREATE A CLIENT ID**. In the pop-up window provide the requested details.  
 3. Set the Redirect URIs to **http://localhost:8888**    
 4. Click on the new app created and copy the CLIENT ID and CLIENT SECRET. Paste it in the config.yaml file in the indicated space.  
-5. Access spotify:[here]( https://www.spotify.com/account/overview/) and copy the username to be entered in config.yaml   
+5. Access spotify from [here]( https://www.spotify.com/account/overview/) and copy the username to be entered in config.yaml   
 
 ### Create YouTube API Key   
 1. Go to the projects page on Google Cloud Console-> https://console.cloud.google.com/project and sign in using your google account.    
