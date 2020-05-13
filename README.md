@@ -1,14 +1,15 @@
 ![github-small](https://user-images.githubusercontent.com/18142081/81770496-0c77c000-94fe-11ea-9ad6-9593469e6f18.png)
  
+## How to setup or use   
 
-## Create Spotify credentials   
+### Create Spotify credentials   
 1. Click [here](https://developer.spotify.com/dashboard/login) and register for a spotify developer account, if you already don't have one.  
 2. In the developer's dashboard, choose "**CREATE A CLIENT ID**". In the pop-up window provide the requested details.  
 3. Set the Redirect URIs to http://localhost:8888    
 4. Click on the new app created and copy the CLIENT ID and CLIENT SECRET. Paste it in the config.yaml file in the indicated space.  
 5. Access spotify:[here]( https://www.spotify.com/account/overview/) and copy the username to be entered in config.yaml   
 
-## Create YouTube API Key   
+### Create YouTube API Key   
 1. Go to the projects page on your Google Cloud Console-> https://console.cloud.google.com/project  
 2. Select your project from the list or create a new project.  
 3. On the left top corner, click on the hamburger icon or three horizontal stacked lines.  
@@ -16,7 +17,7 @@
 5. Click on create credentials and select API Key and choose close. Make a note of the created API Key and enter it in the **config.yaml** script at the indicated location.  
 6. "From the API and services" option, select library and in the search bar type **youtube**, select "YouTube Data API v3" API and click on "ENABLE".  
 
-## Install dependencies
+### Install dependencies
    System wide dependencies    
    ```
    sudo apt-get install python3 python3-dev python3-venv python3-pip python3-setuptools -y       
@@ -38,7 +39,7 @@
    pip3 install pafy google-api-python-client python-vlc git+https://github.com/plamere/spotipy.git pyyaml oauth2client youtube_dl   
    ```   
 
-## Example usages   
+### Example usages   
    Open a terminal and run the example as follows:  
    Example 1-Playback by supplying playlistname as argument:   
    ```   
