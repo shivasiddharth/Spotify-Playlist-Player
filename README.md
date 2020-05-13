@@ -4,18 +4,18 @@
 
 ### Create Spotify credentials   
 1. Click [here](https://developer.spotify.com/dashboard/login) and register for a spotify developer account, if you already don't have one.  
-2. In the developer's dashboard, choose "**CREATE A CLIENT ID**". In the pop-up window provide the requested details.  
-3. Set the Redirect URIs to http://localhost:8888    
+2. In the developer's dashboard, choose **CREATE A CLIENT ID**. In the pop-up window provide the requested details.  
+3. Set the Redirect URIs to **http://localhost:8888**    
 4. Click on the new app created and copy the CLIENT ID and CLIENT SECRET. Paste it in the config.yaml file in the indicated space.  
 5. Access spotify:[here]( https://www.spotify.com/account/overview/) and copy the username to be entered in config.yaml   
 
 ### Create YouTube API Key   
-1. Go to the projects page on your Google Cloud Console-> https://console.cloud.google.com/project  
-2. Select your project from the list or create a new project.  
+1. Go to the projects page on Google Cloud Console-> https://console.cloud.google.com/project and sign in using your google account.    
+2. Create a new project and give it a name.  
 3. On the left top corner, click on the hamburger icon or three horizontal stacked lines.  
-4. Move your mouse pointer over "API and services" and choose "credentials".
+4. Move your mouse pointer over **API and services** and choose **credentials**.
 5. Click on create credentials and select API Key and choose close. Make a note of the created API Key and enter it in the **config.yaml** script at the indicated location.  
-6. "From the API and services" option, select library and in the search bar type **youtube**, select "YouTube Data API v3" API and click on "ENABLE".  
+6. From the **API and services** option, select library and in the search bar type **youtube**, select **YouTube Data API v3** API and click on **ENABLE**.  
 
 ### Install dependencies
    System wide dependencies    
