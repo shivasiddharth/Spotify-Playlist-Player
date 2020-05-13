@@ -1,5 +1,5 @@
 ![github-small](https://user-images.githubusercontent.com/18142081/81770496-0c77c000-94fe-11ea-9ad6-9593469e6f18.png)
-**Scripts to play your spotify playlists.**   
+ 
 
 ## Create Spotify credentials   
 1. Click [here](https://developer.spotify.com/dashboard/login) and register for a spotify developer account, if you already don't have one.  
