@@ -46,7 +46,10 @@
    ```
 
 ## Note   
-1. For premium or paid users there are a number of programs like mopidy-spotify, spotify connect, volumio plugin, etc. For free users, there is limited scope of playing back spotify playlists such as mpsyt.
+1. For premium or paid users there are a number of programs like mopidy-spotify, spotify connect, volumio plugin, etc. For free users, there is limited scope of playing back spotify playlists such as mpsyt.   
+
 2. Spotify API currently only supports playback in a web browser, but DRM content is being blocked in the Raspberry Pi.    
-3. As a roundabout approach, I have programmed the assistant to get the playlist details using Spotipy API and then fetch those tracks from YouTube.    
+
+3. As a roundabout approach, these scripts get playlist details using Spotipy API and then fetch those tracks from YouTube.      
+
 4. This custom program has a better accuracy than spotify playlist playback using mpsyt.     
